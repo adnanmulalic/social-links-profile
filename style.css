@@ -1,3 +1,7 @@
+body {
+    background-color: hsl(0, 0%, 12%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -8,5 +12,30 @@
 }
 
 .myclass {
-    background-color: lightgreen;
+    background-color: hsl(0, 0, 20%);
+    border: 1px solid white;
+}
+
+#card, #social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+#card {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
+#location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 2rem;
 }
